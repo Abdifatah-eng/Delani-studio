@@ -1,0 +1,36 @@
+#bg-img {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+.parag {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+#text {
+    text-align: center;
+    font-size: small;
+    color: aliceblue;
+    text-transform: uppercase;
+    position: relative;
+    top: 250px;
+}
+.mouse-over {
+    text-align: center;
+    position: relative;
+    top: 450px;
+    }
+    #abt-title {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .about {
+        text-align: center;
+        font-weight: bold;
+        
+    }
