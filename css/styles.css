@@ -2,6 +2,8 @@
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
     height: 100vh;
+    width: 100vw;
+   position: relative; 
 
 }
 .parag {
@@ -45,7 +47,32 @@
     position: relative;
     top: 100px;
 }
+#pos {
+    position: relative;
+    right: 80px;
+}
 .class {
     position: relative;
     top: 50px;
+}
+#designs {
+    position: relative;
+    left: -200px;
+}
+#dev {
+    position: relative;
+    right: -10px;
+}
+#pro {
+    position: relative;
+    right: -200px;
+}
+#design {
+    display: none;
+}
+#development {
+    display: none;
+}
+#Products {
+    display: none;
 }
