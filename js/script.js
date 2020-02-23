@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $("#img").click(function() {
-      $("#design").toggle();
+      $("#design").fadeToggle(1000);
   });
   $("#img2").click(function() {
-      $("#development").toggle();
+      $("#development").slideToggle(1000);
   });
   $("#img3").click(function() {
-      $("#Products").toggle();
+      $("#Products").toggle(1000);
   });
 });
