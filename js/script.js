@@ -8,4 +8,9 @@ $(document).ready(function() {
   $("#img3").click(function() {
       $("#Products").toggle(1000);
   });
+  $('#form form').submit(function(){
+    var name = $('#name').val();
+     alert("Your message "+name+ " has been sent");
+  });
 });
+
